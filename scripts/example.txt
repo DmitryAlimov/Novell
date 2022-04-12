@@ -1,0 +1,98 @@
+﻿CHARACTERS
+ghost = Привидение, color=red, font = Ethna.ttf , small_image_name = Миха.png, large_image_name = BIG_John.png
+bar = Джон, small_image_name = Миха.png, large_image_name = BIG_John.png, color=black, font = Ethna.ttf
+Emely = Эмили, small_image_name = Emely.png, large_image_name = BIG_John.png, font = Ethna.ttf
+M = Мишаня, small_image_name = flamingo.jpeg, large_image_name = BIG_John.png, font = Ethna.ttf
+main = Ya, small_image_name = flamingo.jpeg, large_image_name = BIG_John.png, font = Ethna.ttf
+
+
+LOCATIONS
+STC = База, image_name = STC.jpg
+swamp = Заколдованное болото, image_name = Болото.jpg
+d = Долина ужаса, image_name = Долина_ужаса.jpeg
+
+IMAGES
+flamingo = Фламинго, image_name = ptitca.jpg, position = 0.0, size = 500.500
+
+AUDIOS
+au1 = Nsk.mp3
+THINGS
+ASD = Thing123, image_name = ASD.jpeg, size = 300.300
+
+
+
+
+BEGIN STC
+
+LOCATION STC
+
+	EVAL A.123
+
+	IF A
+	# 123:
+		$main  A
+	END
+
+	$Emely Привет
+	EMOTION Emely злость
+	$Emely Привет1
+	EMOTION Emely испуг
+	$Emely Привет2
+	EMOTION Emely радость
+	$Emely Привет3
+	EMOTION Emely радость2
+	$Emely Привет4
+	EMOTION Emely недовольство
+	$Emely Привет5
+	EMOTION Emely удивление
+
+
+
+
+
+
+
+
+
+	TAKE ASD 
+	%REMOVE ASD
+	%IF_OWN 
+	%# ASD: 
+	%	паш
+	%	WINDOW
+	%	GOTO d
+	%END
+	
+	гшщпгщ
+	%WINDOW
+	
+	PLAY_MUSIC au1
+	CH_BACK M
+	CH_BACK bar
+	
+	DELAY 1
+	$bar Здорово, я Барни!
+	$M Здорово, я M
+	$main ЗДАРОВА
+	CH_HIDE M
+	$bar 123Здорово, я Барни!
+	CH_HIDE ALL
+
+	LABEL A
+	CASE go
+		#Пойти на болото: GOTO swamp
+		#Пойти в долину ужасов: GOTO d
+		#Я розовый фламинго!: 
+			$bar ГЛупец
+			IM_SHOW flamingo
+			DELAY 1
+			IM_HIDE flamingo
+			IM_HIDE ALL
+	END
+	CH_HIDE M
+	CH_HIDE bar
+	
+INCLUDE chapter_1.txt
+
+
+END_SCRIPT

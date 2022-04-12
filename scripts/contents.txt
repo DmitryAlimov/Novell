@@ -1,0 +1,60 @@
+﻿CHARACTERS
+main  =Эмили, color=black, font=Ethna.ttf, small_image_name=Эмили.png, large_image_name=big_emily.png
+misha =Миша,  color=black, font=Ethna.ttf, small_image_name=Миша.png,  large_image_name=big_misha.png
+alice =Алиса, color=black, font=Ethna.ttf, small_image_name=Алиса.png, large_image_name=big_alice.png
+alex  =Алекс, color=black, font=Ethna.ttf, small_image_name=Алекс.png, large_image_name=big_alex.png
+ded   =Дед,   color=black, font=Ethna.ttf, small_image_name=Дед.png,   large_image_name=big_ded.png
+neded =Недед, color=black, font=Ethna.ttf, small_image_name=Недед.png, large_image_name=big_neded.png
+emma  =Эмма,  color=black, font=Ethna.ttf, small_image_name=Эмма.png,  large_image_name=big_emma.png
+
+LOCATIONS
+1_бар = Бар, image_name = 1_бар.jpg
+1_черный_вход = Черный вход, image_name = 1_черный_вход.jpg
+1_полиция = Приезд полиции, image_name = 1_полиция.jpg
+1_допрос = Допрос, image_name = 1_допрос.jpg
+1_коридор = Коридор, image_name = 1_коридор.jpg
+1_выход_из_полиции = Улица, image_name = 1_выход_из_полиции.jpg
+2_комната = Комната Эмили, image_name = 2_комната.jpg
+2_утро_в_городе = Утро в городе, image_name = 2_утро_в_городе.jpg
+2_встреча = Улица, image_name = 2_встреча.jpg
+2_бар = Бар, image_name = 2_бар.jpg
+2_еще_бар = Бар, image_name = 2_еще_бар.jpg
+2_улица = Улица, image_name = 2_улица.jpg
+2_пыстынная_улица = Улица, image_name = 2_пыстынная_улица.JPG
+2_улица_к_жертве = Улица, image_name = 2_улица_к_жертве.jpg
+2_дом_жертвы = Дом жертвы, image_name = 2_дом_жертвы.jpg
+2_квартира_жертвы = Квартира жертвы, image_name = 2_квартира_жертвы.jpg
+2_дверь = Подъезд, image_name = 2_дверь.jpeg
+2_дверь_изнутри = Квартира жертвы, image_name = 2_дверь_изнутри.jpg
+2_офис = Офис полиции, image_name = 2_офис.jpg
+3_квартира_жертвы = Квартира жертвы, image_name = 3_квартира_жертвы.jpg
+3_пол = Квартира жертвы, image_name = 3_пол.jpg
+3_офис1  = Офис полиции, image_name = 3_офис.jpg
+3_вокзал_вход = Вокзал, image_name = 3_вокзал_вход.png
+3_камеры = СБ вокзала, image_name = 3_камеры.JPG
+3_такси = Станция такси, image_name = 3_такси.jpg
+3_дом_преступников = Дом охотников, image_name = 3_дом_преступников.png
+3_подъезд_преступников = Дом охотников, image_name = 3_подъезд_преступников.jpg
+3_офис2  = Офис полиции, image_name = 3_офис.jpg
+4_квартира_охотников = Квартира охотников, image_name = 4_квартира_охотников.jpg
+4_допрос = Офис полиции, image_name = 4_допрос.jpg
+4_КАФЕ = Кафе, image_name = 4_КАФЕ.jpg
+4_КОМНАТА_ГГ = Комната Эмили, image_name = 4_КОМНАТА_ГГ.jpg
+4_машина_недеда = Улица, image_name = 4_машина_недеда.jpg
+
+IMAGES
+%flamingo = Фламинго, image_name = ptitca.jpg, position = 0.0, size = 500.500
+
+AUDIOS
+%au1 = Nsk.mp3
+
+THINGS
+%ASD = Thing123, image_name = ASD.jpeg, size = 300.300
+
+BEGIN 2_комната
+INCLUDE chapter_1.txt
+INCLUDE chapter_2.txt
+INCLUDE chapter_3.txt
+INCLUDE chapter_4.txt
+INCLUDE chapter_5.txt
+END_SCRIPT
