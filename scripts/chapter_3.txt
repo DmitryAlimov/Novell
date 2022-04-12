@@ -1,0 +1,10 @@
+LOCATION 3_квартира_жертвы
+LOCATION 3_пол
+IM_SHOW 3_билет.png
+LOCATION 3_офис1
+LOCATION 3_вокзал_вход
+LOCATION 3_камеры
+LOCATION 3_такси
+LOCATION 3_дом_преступников
+LOCATION 3_подъезд_преступников
+LOCATION 3_офис2

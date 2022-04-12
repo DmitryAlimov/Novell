@@ -1,0 +1,7 @@
+LOCATION 4_квартира_охотников
+LOCATION 4_допрос
+IM_SHOW 4_досье_гг.jpg
+IM_SHOW 4_досье_отцагг.jpg
+LOCATION 4_КАФЕ
+LOCATION 4_КОМНАТА_ГГ
+LOCATION 4_машина_недеда
